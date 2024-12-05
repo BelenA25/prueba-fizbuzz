@@ -7,6 +7,10 @@ describe("Devolucion", () => {
     it("deberia retornar el numero 2", () => {
         expect(fizzbuzz(2)).toEqual(2);
       });
+    it("deberia retornar fizz", () => {
+      expect(fizzbuzz(3)).toEqual("Fizz");
+    });
+      
   });
 
   
