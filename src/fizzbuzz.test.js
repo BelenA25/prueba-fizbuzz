@@ -9,8 +9,7 @@ describe("Devolucion", () => {
       });
     it("deberia retornar fizz", () => {
       expect(fizzbuzz(3)).toEqual("Fizz");
-    });
-      
+    }); 
   });
 
   
